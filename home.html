@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAD6A5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .icon {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            color: #ff7200;
+            font-size: 35px;
+            font-family: Arial;
+            padding-left: 20px;
+        }
+
+        .navbar .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .menu ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar .menu li {
+            margin-right: 30px;
+        }
+
+        .navbar .menu li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .navbar .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .search input[type="text"] {
+            width: 200px;
+            height: 30px;
+            padding: 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .navbar .search input[type="text"]:focus {
+            outline: none;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        }
+
+        #services,
+        .content {
+            max-width: 800px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #services h2,
+        #about h2 {
+            width: 100%;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        #services ul {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 15px;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        #about p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .nav-items a {
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-items a:hover {
+            background-color: #ff7200;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">YSVP BANK</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home.php">HOME</a></li>
+                <li><a href="home.html">ABOUT</a></li>
+                <li><a href="login.php">LOGIN</a></li>
+                <li><a href="#">HELP</a></li>
+            </ul>
+        </div>
+    </div>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>
+            <ul>Loans and Mortgages</ul>
+            <ul>Credit Cards</ul>
+            <ul>Assisting in investments</ul>
+            <ul>Online and Mobile Banking</ul>
+            <ul>ATM Services</ul>
+            <ul>Insurance</ul>
+            <ul>Retirement Planning</ul>
+            <ul>Financial Advisory</ul>
+            <ul>Fraud Protection</ul>
+        </p>
+    </section>
+
+    <section id="about">
+        <h2><center>About Us</center></h2>
+        <p style="margin:40px">This is where rich legacy meets cutting-edge financial solutions. Established in the year 2022 we have been steadfast in our commitment to provide exceptional banking services. Our mission is to empower individuals and businesses with tailored financial solutions, ensuring a secure and prosperous future. At YSVP Bank, integrity and customer-centric values are at the core of everything we do. Our team comprises industry experts who guide the bank with a vision for innovation and excellence. We prioritize the trust our customers place in us and continually strive to exceed expectations. Discover a comprehensive suite of financial products and services designed to meet your diverse needs. From Personalised banking accounts to advanced digital solutions, we are dedicated to simplifying your financial journey. Security is paramount, and we employ state-of-the-art measures to safeguard your assets and information. Beyond Banking, we take pride in our commitment to community engagement and social responsibility. This is where tradition meets progress, and <strong>your financial well-being is our top priority</strong>. Experience banking that goes beyond transactions-experience a partnership in your success.</p>
+    </section>
+</body>
+
+</html>
